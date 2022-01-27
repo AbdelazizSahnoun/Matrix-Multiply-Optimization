@@ -1,0 +1,6 @@
+Nom de la fonction,Temps d'execution moyen(12 threads/6 coeurs physiques),Accélération par rapport à la fonction BASIC
+gemm_basic,3.79148,1
+gemm_blocked,0.726942,5.21565681993887
+gemm_simd,0.907947,4.17588251296607
+gemm_omp,0.442235,8.57345076712608
+gemm_combo,0.0909725,41.6772101459232
