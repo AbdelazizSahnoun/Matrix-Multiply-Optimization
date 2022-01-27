@@ -20,11 +20,9 @@ pour exécuter seulement le test SIMD avec une taille de matrice 8 :
 ```
 ./test_gemm simd_
 ```
-Vous pouvez consulter le fichier de log en cas d’échec avec le résultat de chaque matrice et le résultat
-de référence. Chaque test produit un fichier de log à son nom. De cette manière, vous serez en mesure
-de repérer plus facilement l’emplacement du problème. Vous pouvez utiliser Matrix::dump(), mais
-attention d’enlever le code de débogage avant l’exécution du banc d’essai pour ne pas fausser les
-résultats.
+
+Les fichiers logs contiennent le résultat de chaque matrice et le résultat
+de référence. Chaque test produit un fichier de log à son nom.
 
 Le fichier « gemm.cpp » contient les optimisations. Voici les descriptions :
 
